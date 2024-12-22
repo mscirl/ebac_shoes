@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+}
+
+/* Header */
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sobre a loja */
+.about {
+    display: flex;
+}
+
+.about img {
+    max-width: 25%;
+}
+
+/* Produtos */
+.products-list img {
+    width: 15em;
+}
+
+.container-products li{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
